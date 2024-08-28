@@ -49,3 +49,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/hw/lights.default.so:/system/lib/hw/lights.default.so \
     $(VENDOR_PATH)/lib64/hw/lights.default.so:/system/lib64/hw/lights.default.so
+
+# Sensor blobs (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/lib64/hw/sensorcaps.default.so:/system/lib64/hw/sensorcaps.default.so \
+    $(VENDOR_PATH)/lib64/hw/sensorhub.default.so:/system/lib64/hw/sensorhub.default.so \
+    $(VENDOR_PATH)/lib64/libsensorservice.so:/system/lib64/libsensorservice.so \
+    $(VENDOR_PATH)/lib64/libhwlog.so:/system/lib64/libhwlog.so
