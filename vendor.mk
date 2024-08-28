@@ -305,3 +305,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libtfa9895.so:/system/lib/libtfa9895.so \
     $(VENDOR_PATH)/lib64/libtfa9895.so:/system/lib64/libtfa9895.so
+
+# Audio blobs for liszt (EMUI3.1)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/lib/libad45257.so:/system/lib/libad45257.so \
+    $(VENDOR_PATH)/lib/libtpa2028.so:/system/lib/libtpa2028.so \
+    $(VENDOR_PATH)/lib64/libad45257.so:/system/lib64/libad45257.so \
+    $(VENDOR_PATH)/lib64/libtpa2028.so:/system/lib64/libtpa2028.so
