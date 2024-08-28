@@ -317,3 +317,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libbalong_audio_ril.so:/system/lib/libbalong_audio_ril.so \
     $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:/system/lib64/libbalong_audio_ril.so
+
+# Wifi blobs (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/bin/mac_addr_normalization:/system/bin/mac_addr_normalization
