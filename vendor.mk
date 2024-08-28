@@ -56,3 +56,16 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/sensorhub.default.so:/system/lib64/hw/sensorhub.default.so \
     $(VENDOR_PATH)/lib64/libsensorservice.so:/system/lib64/libsensorservice.so \
     $(VENDOR_PATH)/lib64/libhwlog.so:/system/lib64/libhwlog.so
+
+# Hardware blobs (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd:/system/vendor/firmware/BCM4334B0_002.001.013.1837.2355.hcd \
+    $(VENDOR_PATH)/vendor/firmware/BCM4335C0_003.001.009.0105.0497_Mozart_ORC.hcd:/system/vendor/firmware/BCM4335C0_003.001.009.0105.0497_Mozart_ORC.hcd \
+    $(VENDOR_PATH)/vendor/firmware/dhd_preinit_config.txt:/system/vendor/firmware/dhd_preinit_config.txt \
+    $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_apsta_hw.bin:/system/vendor/firmware/fw_bcm4339_apsta_hw.bin \
+    $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_hw.bin:/system/vendor/firmware/fw_bcm4339_hw.bin \
+    $(VENDOR_PATH)/vendor/firmware/fw_bcm4339_test_hw_apsta.bin:/system/vendor/firmware/fw_bcm4339_test_hw_apsta.bin \
+    $(VENDOR_PATH)/vendor/firmware/hifi_6402.img:/system/vendor/firmware/hifi_6402.img \
+    $(VENDOR_PATH)/vendor/firmware/hifi_6402_4spk.img:/system/vendor/firmware/hifi_6402_4spk.img \
+    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw.txt:/system/vendor/firmware/nvram4339_hw.txt \
+    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_mozart_l.txt:/system/vendor/firmware/nvram4339_hw_mozart_l.txt
