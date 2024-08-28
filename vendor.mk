@@ -300,3 +300,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libaudioalgoservice_jni.so:/system/lib64/libaudioalgoservice_jni.so \
     $(VENDOR_PATH)/lib64/libaudioroute.so:/system/lib64/libaudioroute.so \
     $(VENDOR_PATH)/lib64/libmax98925.so:/system/lib64/libmax98925.so
+
+# Audio blobs for mozart (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/lib/libtfa9895.so:/system/lib/libtfa9895.so \
+    $(VENDOR_PATH)/lib64/libtfa9895.so:/system/lib64/libtfa9895.so
