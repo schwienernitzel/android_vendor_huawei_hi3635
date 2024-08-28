@@ -312,3 +312,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib/libtpa2028.so:/system/lib/libtpa2028.so \
     $(VENDOR_PATH)/lib64/libad45257.so:/system/lib64/libad45257.so \
     $(VENDOR_PATH)/lib64/libtpa2028.so:/system/lib64/libtpa2028.so
+
+# RIL blobs (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/lib/libbalong_audio_ril.so:/system/lib/libbalong_audio_ril.so \
+    $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:/system/lib64/libbalong_audio_ril.so
