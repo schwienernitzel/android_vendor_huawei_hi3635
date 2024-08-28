@@ -321,3 +321,7 @@ PRODUCT_COPY_FILES += \
 # Wifi blobs (EMUI4)
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/bin/mac_addr_normalization:/system/bin/mac_addr_normalization
+
+# Bluetooth blobs (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/vendor/lib/libbt-vendor.so:/system/vendor/lib/libbt-vendor.so
