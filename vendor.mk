@@ -354,3 +354,7 @@ PRODUCT_COPY_FILES += \
 # FLP blobs (EMUI4)
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/hw/flp.hi3635.so:/system/lib64/hw/flp.hi3635.so
+
+# Thermal daemon (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/bin/thermal-daemon:/system/bin/thermal-daemon
