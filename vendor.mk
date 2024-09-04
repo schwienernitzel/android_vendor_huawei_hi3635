@@ -69,7 +69,25 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/vendor/firmware/hifi_6402_4spk.img:/system/vendor/firmware/hifi_6402_4spk.img \
     $(VENDOR_PATH)/vendor/firmware/nvram4339_hw.txt:/system/vendor/firmware/nvram4339_hw.txt \
     $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_mozart_l.txt:/system/vendor/firmware/nvram4339_hw_mozart_l.txt \
-    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_liszt.txt:/system/vendor/firmware/nvram4339_hw_liszt.txt
+    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_liszt.txt:/system/vendor/firmware/nvram4339_hw_liszt.txt \
+    $(VENDOR_PATH)/global/virtualNets-conf.xml:/system/global/virtualNets-conf.xml \
+    $(VENDOR_PATH)/global/apns-conf.xml:/system/global/apns-conf.xml \
+    $(VENDOR_PATH)/global/ons/ons.bin:/system/global/ons/ons.bin \
+    $(VENDOR_PATH)/global/ons/net_example.txt:/system/global/ons/net_example.txt \
+    $(VENDOR_PATH)/global/globalAutoAdapt-conf.xml:/system/global/globalAutoAdapt-conf.xml \
+    $(VENDOR_PATH)/global/version.txt:/system/global/version.txt \
+    $(VENDOR_PATH)/global/voicemail-conf.xml:/system/global/voicemail-conf.xml \
+    $(VENDOR_PATH)/global/virtualNets-conf-nolte.xml:/system/global/virtualNets-conf-nolte.xml \
+    $(VENDOR_PATH)/global/globalMatchs-conf.xml:/system/global/globalMatchs-conf.xml \
+    $(VENDOR_PATH)/global/apns-conf-nolte.xml:/system/global/apns-conf-nolte.xml \
+    $(VENDOR_PATH)/global/xml/hw_defaults.xml:/system/global/xml/hw_defaults.xml \
+    $(VENDOR_PATH)/global/xml/mccTable_V2.xml:/system/global/xml/mccTable_V2.xml \
+    $(VENDOR_PATH)/isp/isp.bin:/system/isp/isp.bin \
+    $(VENDOR_PATH)/miniisp/TBM_Latour.bin:/system/miniisp/TBM_Latour.bin \
+    $(VENDOR_PATH)/miniisp/miniBoot.bin:/system/miniisp/miniBoot.bin \
+    $(VENDOR_PATH)/miniisp/miniBoot2.bin:/system/miniisp/miniBoot2.bin \
+    $(VENDOR_PATH)/miniisp/TBM_Latour2.bin:/system/miniisp/TBM_Latour2.bin \
+    $(VENDOR_PATH)/miniisp/chip_det.bin:/system/miniisp/chip_det.bin
 
 # Generic Audio blobs (EMUI4)
 PRODUCT_COPY_FILES += \
