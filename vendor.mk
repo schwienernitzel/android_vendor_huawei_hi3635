@@ -358,3 +358,14 @@ PRODUCT_COPY_FILES += \
 # Thermal daemon (EMUI4)
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/bin/thermal-daemon:/system/bin/thermal-daemon
+
+# OMX blobs (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/lib/libomx_vxd.so:/system/lib/libomx_vxd.so \
+    $(VENDOR_PATH)/lib/libomx_vxe.so:/system/lib/libomx_vxe.so \
+    $(VENDOR_PATH)/lib/libstagefrighthw.so:/system/lib/libstagefrighthw.so \
+    $(VENDOR_PATH)/lib/libvpp.so:/system/lib/libvpp.so \
+    $(VENDOR_PATH)/lib64/libomx_vxd.so:/system/lib64/libomx_vxd.so \
+    $(VENDOR_PATH)/lib64/libomx_vxe.so:/system/lib64/libomx_vxe.so \
+    $(VENDOR_PATH)/lib64/libstagefrighthw.so:/system/lib64/libstagefrighthw.so \
+    $(VENDOR_PATH)/lib64/libvpp.so:/system/lib64/libvpp.so
