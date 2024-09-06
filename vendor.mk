@@ -369,3 +369,10 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/lib64/libomx_vxe.so:/system/lib64/libomx_vxe.so \
     $(VENDOR_PATH)/lib64/libstagefrighthw.so:/system/lib64/libstagefrighthw.so \
     $(VENDOR_PATH)/lib64/libvpp.so:/system/lib64/libvpp.so
+
+# Power blobs (EMUI4)
+PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/lib/libhwaps.so:/system/lib/libhwaps.so \
+    $(VENDOR_PATH)/lib/libpowergenie_native3.so:/system/lib/libpowergenie_native3.so \
+    $(VENDOR_PATH)/lib64/libhwaps.so:/system/lib64/libhwaps.so \
+    $(VENDOR_PATH)/lib64/libpowergenie_native3.so:/system/lib64/libpowergenie_native3.so
