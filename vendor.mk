@@ -334,8 +334,22 @@ PRODUCT_COPY_FILES += \
 
 # RIL blobs (EMUI4)
 PRODUCT_COPY_FILES += \
+    $(VENDOR_PATH)/bin/rild:/system/bin/rild \
+    $(VENDOR_PATH)/etc/modemConfig/hids_ue_msg.cfg:/system/etc/modemConfig/hids_ue_msg.cfg \
+    $(VENDOR_PATH)/etc/modemConfig/viacbp82d_log.bcfg:/system/etc/modemConfig/viacbp82d_log.bcfg \
+    $(VENDOR_PATH)/etc/modemConfig/viacbp82d_shutdown_log.bcfg:/system/etc/modemConfig/viacbp82d_shutdown_log.bcfg \
+    $(VENDOR_PATH)/etc/modemConfig/hua.cfg:/system/etc/modemConfig/hua.cfg \
+    $(VENDOR_PATH)/etc/modemConfig/balong/FieldTest.cfg:/system/etc/modemConfig/balong/FieldTest.cfg \
+    $(VENDOR_PATH)/etc/modemConfig/balong/basic_name:/system/etc/modemConfig/balong/basic_name \
+    $(VENDOR_PATH)/lib/libbalong-ril.so:/system/lib/libbalong-ril.so \
+    $(VENDOR_PATH)/lib/libbalong-ril-1.so:/system/lib/libbalong-ril-1.so \
     $(VENDOR_PATH)/lib/libbalong_audio_ril.so:/system/lib/libbalong_audio_ril.so \
-    $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:/system/lib64/libbalong_audio_ril.so
+    $(VENDOR_PATH)/lib64/libbalong-ril.so:/system/lib64/libbalong-ril.so \
+    $(VENDOR_PATH)/lib64/libbalong-ril-1.so:/system/lib64/libbalong-ril-1.so \
+    $(VENDOR_PATH)/lib64/libbalong_audio_ril.so:/system/lib64/libbalong_audio_ril.so \
+    $(VENDOR_PATH)/lib64/libreference-ril.so:/system/lib64/libreference-ril.so \
+    $(VENDOR_PATH)/lib64/libril.so:/system/lib64/libril.so \
+    $(VENDOR_PATH)/lib64/libvia-ril.so:/system/lib64/libvia-ril.so
 
 # Wifi blobs (EMUI4)
 PRODUCT_COPY_FILES += \
