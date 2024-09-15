@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/vendor/firmware/hifi_6402_4spk.img:/system/vendor/firmware/hifi_6402_4spk.img \
     $(VENDOR_PATH)/vendor/firmware/nvram4339_hw.txt:/system/vendor/firmware/nvram4339_hw.txt \
     $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_mozart_l.txt:/system/vendor/firmware/nvram4339_hw_mozart_l.txt \
-    $(VENDOR_PATH)/vendor/firmware/nvram4339_hw_liszt.txt:/system/vendor/firmware/nvram4339_hw_liszt.txt \
     $(VENDOR_PATH)/global/virtualNets-conf.xml:/system/global/virtualNets-conf.xml \
     $(VENDOR_PATH)/global/apns-conf.xml:/system/global/apns-conf.xml \
     $(VENDOR_PATH)/global/ons/ons.bin:/system/global/ons/ons.bin \
